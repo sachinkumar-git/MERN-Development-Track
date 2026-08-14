@@ -1,0 +1,17 @@
+/* name color */
+/* h2 {
+    color: orange;
+} */
+
+h2{
+    /* color: rgb(0,255,0); */
+
+    /* color: rgb(255,255,0); */
+    /* color : rgb(255,255,255); */
+    /* color: rgb(0,0,0); */
+
+    /* color : #000000; */
+    /* color : #ffffff; */
+    /* color : #00ff00; */
+color : #0f0; /* #0f0 is a short hand for #00ff00 */
+}

@@ -1,0 +1,39 @@
+h1 {
+    /* text-align: right;
+    border : solid;
+    width: 50%; */
+    text-align: center;
+    text-decoration: wavy red underline;
+    /* text-decoration-color: red; */
+
+    letter-spacing: normal;
+    /* letter-spacing: 10px; */
+    font-family: 'Times New Roman';
+}
+
+h3 {
+    text-align: start;
+    text-decoration: red line-through;
+    /* alternative method */
+    /* text-decoration-color: blue; */
+}
+
+p {
+    /* text-align: right/start; */
+    text-align: justify;
+    font-weight: 400;
+    line-height: normal;
+    /* line-height: 1.5; */
+    font-size: 20px;
+}
+
+/* font weight*/
+h2 {
+    font-weight: 800;
+   text-decoration: overline;
+   text-decoration-color: pink ;
+}
+
+a{
+    text-decoration: none;
+}
