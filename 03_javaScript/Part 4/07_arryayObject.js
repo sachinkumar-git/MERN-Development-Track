@@ -1,0 +1,37 @@
+const classInfo = [
+    {
+        name: "aman",
+        grade: "A+",
+        city: "Delhi"
+    },
+    {
+        name: "shradha",
+        grade: "A",
+        city: "Pune"
+    },
+    {
+        name: "karan",
+        grade: "O",
+        city: "Mumbai"
+    }
+];
+
+
+console.log(classInfo);
+console.log(classInfo[0]);
+console.log(classInfo[1]);
+console.log(classInfo[2]);
+
+classInfo[1].gender = "female";
+console.log(classInfo);
+
+
+
+
+
+
+
+
+ 
+
+
