@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>my-tailwind-project</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <div class="max-w-xl mx-auto border rounded-xl overflow-hidden shadow-lg bg-white font-sans mt-8">
+  
+  <div class="bg-gradient-to-r from-sky-500 to-indigo-500 text-white h-24 flex items-center justify-center">
+    <h2 class="text-2xl font-bold italic">News you can Trust.</h2>
+  </div>
+
+  <div class="text-center p-8">
+    <h3 class="text-xl font-bold text-gray-800">Stay up to date with the Latest!</h3>
+    <p class="text-gray-600 mt-2">
+      Subscribe to our newsletter for the latest news straight into your inbox.
+    </p>
+
+    <form class="mt-6 flex flex-col gap-3">
+      <input 
+        type="email" 
+        placeholder="you@example.com" 
+        class="w-full p-3 bg-gray-100 border border-gray-200 rounded-lg text-center focus:outline-none focus:ring-2 focus:ring-sky-400"
+      />
+      <button 
+        class="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold py-3 rounded-full transition duration-300 shadow-md"
+      >
+        Subscribe Now
+      </button>
+    </form>
+
+    <p class="text-gray-500 text-sm mt-4 italic">We value your privacy</p>
+  </div>
+</div>
+
+
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
